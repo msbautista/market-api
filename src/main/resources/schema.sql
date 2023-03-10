@@ -1,4 +1,13 @@
 -- -----------------------------------------------------
+-- Table "USERS"
+-- -----------------------------------------------------
+CREATE TABLE  USERS (
+  "user_id" SERIAL NOT NULL,
+  "username" VARCHAR(45) NOT NULL,
+  "password" VARCHAR(100) NOT NULL,
+  PRIMARY KEY ("user_id"));
+
+-- -----------------------------------------------------
 -- Table "CATEGORIES"
 -- -----------------------------------------------------
 CREATE TABLE  CATEGORIES (
