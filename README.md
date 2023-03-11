@@ -46,8 +46,8 @@ Insert a user into the users table making sure that the password is encrypted wi
 
 Here is an example:
 
-Password: darwin 
-Password crypted by BCryptPasswordEncoder: $2a$10$ARAAfY1OwuUgYx2dsMpXuO8nBwAl4D67JeMiIyFFLpyS1YX8A4dyy
+- Password: darwin
+- Password crypted by BCryptPasswordEncoder: $2a$10$ARAAfY1OwuUgYx2dsMpXuO8nBwAl4D67JeMiIyFFLpyS1YX8A4dyy
 
 ```sql
 INSERT INTO users VALUES ("admin", "$2a$10$ARAAfY1OwuUgYx2dsMpXuO8nBwAl4D67JeMiIyFFLpyS1YX8A4dyy")
