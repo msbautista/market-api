@@ -8,7 +8,7 @@ import java.util.*;
 
 public class JWTUtil {
 
-    private static final String KEY = "AddAKeyToSignJWT";
+    private static final String KEY = "AddAKeyToSignJWT****************************";
     private static final Long ACCESS_TOKEN_VALIDITY_SECONDS = 2_595_000L;
 
     public static String generateToken(String username) {
